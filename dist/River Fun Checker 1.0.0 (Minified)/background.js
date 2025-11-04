@@ -1,0 +1,2 @@
+/* River Fun Checker v1.0.0 - Licensed Code */
+chrome.runtime.onInstalled.addListener(()=>{console.log("River Extension installed")}),chrome.runtime.onMessage.addListener((e,s,c)=>{"getUserData"===e.action&&c({success:!0})});

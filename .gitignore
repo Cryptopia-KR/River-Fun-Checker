@@ -1,0 +1,53 @@
+# Node modules
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# 원본 소스 파일들 (비공개)
+manifest.json
+popup.html
+popup.js
+content.js
+background.js
+icons/
+images/
+
+# Build files - 원본 빌드 제외
+dist/River Fun Checker 1.0.0/
+
+# Backup files
+backup/
+
+# Development files - 모두 제외
+minify-build.js
+resize_icon.py
+screenshot-template.html
+create-zip.md
+.github/
+package.json
+package-lock.json
+
+# Documentation files - 제외
+PUBLISH.md
+SCREENSHOTS.md
+TESTING.md
+store-listing.md
+store-overview.md
+store-overview-plain.txt
+privacy-practices-answers.md
+
+# Temporary files
+*.log
+*.tmp
+
+# Only include:
+# - README.md
+# - privacy-policy.md
+# - dist/River Fun Checker 1.0.0 (Minified)/
+# - LICENSE
